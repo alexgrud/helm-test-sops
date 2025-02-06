@@ -1,0 +1,4 @@
+creation_rules:
+  - kms: "arn:aws:kms:eu-west-1:319538390009:key/616add94-f005-4009-8992-68d5b027a121"
+    encrypted_regex: "^(secret|password|apiKey|token)$"
+    path_regex: "secrets.enc.yaml"
